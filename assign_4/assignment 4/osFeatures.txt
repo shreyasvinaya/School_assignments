@@ -1,0 +1,10 @@
+ios – Control Center.
+android - Detailed notifications.
+windows- Live tile badges.
+ios –multitasking preview.
+android –samsung galaxy.
+ios-shared photo stream.
+blackberry –has video, timeshift modes.
+blackberry –control center , system access settings.
+windows – has no settings menu.
+ios-has multitasking preview.

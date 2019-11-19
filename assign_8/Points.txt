@@ -1,0 +1,21 @@
+create table points
+(POS int,
+Team_id int,
+P int,
+W int,
+L int,
+T int,
+PTS int,
+NRR float,
+foreign key(Team_id) references ODI_Rankings(Team_id));
+
+insert into points values(1,4,4,3,0,1,7,+2.16);
+insert into points values(2,5,4,3,1,0,6,+0.57);
+insert into points values(3,2,3,2,0,1,5,+0.53);
+insert into points values(4,1,3,2,1,0,4,+1.30);
+insert into points values(5,9,4,1,1,2,4,-1.51);
+insert into points values(6,8,3,1,1,1,3,+2.05);
+insert into points values(7,7,4,1,2,1,3,-0.71);
+insert into points values(8,6,4,1,2,1,3,-1.79);
+insert into points values(9,3,4,0,3,1,1,-0.95);
+insert into points values(10,10,3,0,3,0,0,-1.49);

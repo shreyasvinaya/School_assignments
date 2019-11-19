@@ -1,0 +1,24 @@
+create table ODI_Rankings
+(Team_id int primary key,
+Ranks int,
+Team varchar(20),
+Matches int,
+Points int default(0),
+Rating int check (Rating>20));
+
+insert into ODI_Rankings values(1,1,"England",43,5372,125);
+insert into ODI_Rankings values(2,2,"India",47,5669,121);
+insert into ODI_Rankings values(3,3,"South Africa",39,4488,115);
+insert into ODI_Rankings values(4,4,"New Zealand",33,3729,113);
+insert into ODI_Rankings values(5,5,"Australia",40,4342,109);
+insert into ODI_Rankings values(6,6,"Pakistan",41,3846,94);
+insert into ODI_Rankings values(7,7,"Bangladesh",35,3155,90);
+insert into ODI_Rankings values(8,8,"West Indies",39,3022,77);
+insert into ODI_Rankings values(9,9,"Sri Lanka",43,3266,76);
+insert into ODI_Rankings values(10,10,"Afghanistan",31,1961,63);
+insert into ODI_Rankings values(11,11,"Zimbabwe",30,1609,54);
+insert into ODI_Rankings values(12,12,"Ireland",26,1176,45);
+insert into ODI_Rankings values(13,13,"Scotland",39,3022,77);
+insert into ODI_Rankings values(14,14,"Nepal",8,152,19);
+insert into ODI_Rankings values(15,15,"United Arab Emirates",15,144,10);
+insert into ODI_Rankings values(16,16,"Papua New Guinea",9,50,6);
